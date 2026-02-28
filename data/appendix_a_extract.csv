@@ -1,0 +1,11 @@
+parameter,value,unit,description
+sigma_ref,0.07,index,Reference Stranded Asset Coefficient
+v_sys_ref,1000,billion EUR,Reference system value for sigma calculation
+k_nuclear,50,billion EUR,Original capital of nuclear assets
+d_nuclear,0,billion EUR,Accumulated depreciation of nuclear assets at shutdown
+gamma_mcp_max,0.5,p.u.,Maximum protocol-enabled flow control
+delta_delta_limit,20,degrees,Physical phase angle limit
+x_ij_base,0.1,p.u.,Base line impedance
+v_base,400,kV,Base transmission voltage
+s_base,100,MVA,Base power capacity
+opportunity_cost_rate,0.05,ratio,Annual opportunity cost rate
