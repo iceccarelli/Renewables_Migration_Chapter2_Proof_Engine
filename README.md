@@ -43,16 +43,13 @@ sequenceDiagram
     participant Legacy as €720B Stranded Assets
     participant Protocol as MCP + PDAR
     participant Flow as North-South Corridors
-
     Grid->>Legacy: 03:19 — Frequency stable at 49.93 Hz
     Legacy-->>Grid: U-Turn tuition paid since 2011
     Note over Legacy,Flow: North-South Paradox
-
     Grid->>Protocol: MCP interface live (Jan 2026 reforms)
     Protocol->>Flow: Dynamic Line Rating + agentic negotiation
     Flow-->>Protocol: 30 % capacity unlock
     Protocol-->>Grid: Phase-angle cliff becomes controllable slope
-
     Note over Grid,Protocol: +3.8 Scmd points recovered
 ```
 
@@ -64,7 +61,7 @@ flowchart TD
     B --> C["Industrial Virtual Battery\n5 ct/kWh cap + MCP"]
     C --> D["Inertia Hub Conversion\nFormer nuclear sites"]
     D --> E["Sovereign Advantage\nMigration of the Sun"]
-    style A fill:#1e3a8a,stroke:#60a5fa
+    style A fill:#93c5fd,stroke:#1e40af
     style E fill:#166534,stroke:#4ade80
 ```
 
@@ -81,7 +78,6 @@ graph TD
     G --> H[Virtual Battery & Inertia Hub Model]
     H --> I[2030 Migration of the Sun Horizon]
     I --> J[Production Integrator Tools<br/>Tests • Dashboard • Notebooks]
-
     style C fill:#93c5fd,stroke:#1e40af
     style I fill:#166534,stroke:#4ade80
 ```
@@ -95,19 +91,19 @@ These three diagrams give you immediate visual orientation — from the exact 03
 ```
 Renewables_Migration_Chapter2_Proof_Engine/
 ├── core/
-│ ├── equations.py              # PDAR framework, DC load-flow with Γ_MCP, stranded-asset coefficient, Stability Cliff
-│ ├── utrurn_simulator.py       # €720B forensic models & industrial virtual battery
-│ └── flow_optimizer.py         # DLR 30 % unlock, phase-angle management & inertia-hub conversion
+│ ├── equations.py # PDAR framework, DC load-flow with Γ_MCP, stranded-asset coefficient, Stability Cliff
+│ ├── utrurn_simulator.py # €720B forensic models & industrial virtual battery
+│ └── flow_optimizer.py # DLR 30 % unlock, phase-angle management & inertia-hub conversion
 ├── dashboard/
-│ └── main_interactive.py       # Streamlit UI (6 synchronized tabs)
+│ └── main_interactive.py # Streamlit UI (6 synchronized tabs)
 ├── verification/
-│ ├── test_book_numbers.py      # 52 pytest cases tied to Appendix A
-│ └── validate_manifold.py      # Cumulative Scmd tracking through Chapter 2
+│ ├── test_book_numbers.py # 52 pytest cases tied to Appendix A
+│ └── validate_manifold.py # Cumulative Scmd tracking through Chapter 2
 ├── data/
-│ ├── book_numbers.csv          # Exact figures from Chapter 2 & Appendix A
+│ ├── book_numbers.csv # Exact figures from Chapter 2 & Appendix A
 │ └── appendix_a_extract.csv
 ├── notebooks/
-│ └── 01_prove_chapter2.ipynb   # Interactive proof with sliders
+│ └── 01_prove_chapter2.ipynb # Interactive proof with sliders
 ├── visualizations/
 │ ├── stability_cliff.png
 │ ├── north_south_flow.png
