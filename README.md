@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```bash
 python -m pytest tests/ -v --durations=0
 ```
-All **52 tests** pass against the exact book figures (Appendix A), cumulative Scmd updates through Chapter 2, €720 billion U-Turn invoice, €6.5 billion grid-fee subsidy, 30 % DLR unlock, North-South phase-angle management, and the €5 billion cable-avoidance metric.
+All **52 tests** pass, cumulative Scmd updates through Chapter 2, €720 billion U-Turn invoice, €6.5 billion grid-fee subsidy, 30 % DLR unlock, North-South phase-angle management, and the €5 billion cable-avoidance metric.
 
 ### Launch the Interactive Dashboard
 ```bash
