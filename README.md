@@ -5,9 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 
-This repository is the **official computational companion** to Chapter 2 of Vincenzo Grimaldi’s *The Renewables Migration* (March 21, 2026). It mathematically verifies the pivotal engineering and policy reversal at 03:19 — the exact moment the €1.45 trillion Energiewende receipt is reconciled with the 2011 nuclear phase-out. The proof engine transforms the €720 billion U-Turn, stranded assets, North-South Paradox, and political decay into sovereign advantage through the Protocol-Driven Asset Revaluation (PDAR) framework, Dynamic Line Rating (30 % capacity unlock), industrial virtual batteries (5 ct/kWh cap), and MCP-enabled north-south flow negotiation.
+This repository is the **official computational companion** to Chapter 2 of Vincenzo Grimaldi’s *The Renewables Migration* (March 21, 2026).
 
-The 03:17 narrative thread continues here. Every preceding chapter’s foundation now converges on rewriting 2011 into strategic leverage. This production-ready codebase delivers verifiable PDAR simulations, Stability Cliff buffering, €6.5 billion grid-fee subsidy activation, and the 2030 Migration of the Sun horizon for developers and system integrators to embed MCP intelligence into live grid-revaluation architectures.
+The 03:17 narrative thread continues here.
 
 ---
 
